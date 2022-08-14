@@ -1,0 +1,201 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+
+
+}
+
+
+header {
+
+    background-color: rgb(86, 69, 48);
+    display: flex;
+    margin: 4px auto;
+    max-width: 1200px;
+
+
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+    color: rgba(28, 241, 216, 0.852);
+    text-transform: capitalize;
+    cursor: default;
+}
+
+p {
+
+    margin: 0 auto;
+    color: rgb(199, 217, 217);
+
+    cursor: default;
+
+}
+
+.container {
+
+    margin: 0em 10em;
+    text-align: center;
+
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    margin-right: 7em;
+
+}
+
+.unorder {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.unorder li a {
+    text-decoration: none;
+    color: rgb(192, 235, 167);
+
+
+}
+
+.unorder li {
+    margin: 3em 1em 2em 1em;
+
+}
+
+nav a:hover,
+nav a:focus {
+    color: aqua;
+    border-bottom: 2px solid rgba(28, 241, 216, 0.852);
+}
+
+@media (max-width:482px) {
+    header {
+        flex-direction: column;
+
+    }
+
+    .nav {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .unorder {
+        flex-direction: column;
+        margin: 0 auto;
+
+
+    }
+
+    .unorder li {
+        margin: 0px 1px;
+        padding-top: 9px;
+    }
+
+
+
+}
+
+
+
+/*========media query for large mobiles and
+==========& ipods and i pods  mini===*/
+
+
+
+@media screen and (max-width:768px) and (min-width:483px) {
+    header {
+        display: block;
+        float: centre;
+        margin: 0px;
+        background-color: rgba(56, 202, 83, 0.708);
+
+    }
+
+    .container {
+        margin: -1em auto;
+    }
+
+    .nav {
+
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+
+    .unorder li a {
+        text-decoration: none;
+        color: rgb(49, 57, 45);
+
+
+    }
+
+    p {
+        margin: 7px auto;
+        font-size: 1em;
+        color: rgba(48, 13, 145, 0.808);
+
+
+
+    }
+
+    h1 {
+
+        font-size: 1.5em;
+        color: rgba(28, 33, 33, 0.852);
+
+    }
+
+    .unorder li {
+        margin: 1em 2em 1em 1em;
+
+    }
+}
+
+
+/*========================
+==========================
+=========media query for medium size devices tablets  
+=========& small screen laptops====*/
+
+
+
+
+
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    header {
+        display: block;
+        float: centre;
+        margin: 0px;
+        background-color: rgb(192, 130, 54);
+        margin-top: -1em;
+    }
+
+
+
+    .nav {
+        display: block;
+        margin-right: auto;
+        width: auto;
+
+    }
+
+    .unorder li {
+        margin: 1em 2em 1em 3em;
+
+    }
+}
