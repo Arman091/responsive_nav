@@ -1,3 +1,3 @@
 # responsive_nav
-responsive nav Bar for diffrent size devices using media query.
+responsive nav Bar for diffrent sized devices using media query.
 
